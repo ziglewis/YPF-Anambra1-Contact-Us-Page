@@ -245,7 +245,10 @@ height: auto;
 
 .form-and-map {
   display: flex;
-  
+  justify-content: space-between;
+  color: #111111;
+  background-color: #fff;
+
 }
 
 
