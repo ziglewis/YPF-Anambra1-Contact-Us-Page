@@ -241,73 +241,14 @@ height: auto;
 
 
 /* THE SECTION THREE OF GALLERY BEGINS HERE AFTER THE HERO PAGE */
-.gallery-text {
-    text-align: center;
-    background-color: #ffffff;
-    margin-top: -5px;
-    padding: 20px 13%;
 
-}
-.gallery-text h1 {
-    color: #6bc329;
-    font-size: 38px;
-    line-height: 24px;
-    letter-spacing: 3px;
-    font-weight: 600;
-    vertical-align: baseline;
-    text-transform: capitalize;
-}
 
-.all-photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 350px, 1fr));
-  grid-auto-rows: 250px;
-  gap: 40px;
-  padding: 50px 12% 80px ;
-  border-bottom:  2px solid #fff;
-  justify-items: center;
+.form-and-map {
+  display: flex;
   
 }
 
-.group-background-image {
 
-height: 250px;
-  /* background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images2/Rapha4BetaAll.jpg"); */
-  background:  linear-gradient(rgba(0, 0, 0, 0.01), #6cc32996), url("imagesOptimized/Rapha3Beta.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover;
-  border-bottom:  2px solid #fff;
-}
-
-.all-photos-Events{
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 350px, 1fr));
-  grid-auto-rows: 300px;
-  gap: 50px;
-  padding: 50px 12% 100px;
-  justify-items: center;
-  border-bottom:  1px solid #fff;
-}
-.all-photos-Events img{
-  height: 300px;
-  width: 320px;
-  border-radius: 2%;
-  box-shadow: 10px 10px 3px white;
-  border: 0.5px solid rgb(37, 34, 34);
-}
-
-
-
-.Gallery-Events h1, .Gallery-Outings h1 {
-  text-align: center;
-  font-family: Raleway;
-  font-size: 32px;
-  letter-spacing: 2px;
-  padding-top: 30px;
-}
 
 
 
