@@ -257,31 +257,89 @@ height: auto;
 
 .form-and-map p {
   text-transform:capitalize;
-  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 2.5rem;
+  color:  #848484;
 }
 
 .map{
   width: 40%;
   padding: 5px;
   margin-left: 3%;
+
 }
 
-.map img {
-  width: 60%;
+  .map ul { 
+  /* border: 3px solid ; */
+  padding-left: 15px;
+  box-sizing: border-box;
 }
+
+.map li {
+  color:  #848484;
+  list-style:square;
+  font-size: 14px;
+  line-height: 25px;
+
+}
+
+.map p{
+  line-height: 25px;
+  font-size: 14px;
+ 
+}
+.map img {
+  width: 100%;
+}
+
+.contact-social-icons{
+  display: flex;
+  gap: 5%
+}
+
+
+.contact-social-icons i {
+  color: #6bc329;
+}
+
+.contact-social-icons i:hover {
+  color: #296a12;
+  transform: scale(2); 
+}
+
 
 .form-and-map-form-section {
   width: 60%;
   box-sizing: border-box;
-
 }
 
 .Personal-details {
   padding: 0px;
   box-sizing: border-box;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   text-align: left;
 
+}
+
+fieldset {
+  border: none;
+  color: rgba(117, 117, 117);
+  font-size: 14px;
+}
+
+figure{
+  /* border: 3px solid tan; */
+  width: 60%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+figcaption {
+  color: rgba(117, 117, 117);
+  font-style: oblique;
+  font-size: 14px;
+  
 }
 
 .Personal-details input {
@@ -289,15 +347,16 @@ height: auto;
   box-sizing: border-box;
   height: 50px;
   margin-top: -10px;
-  border: 1px solid #848484;
+  border: 1px solid rgba(117, 117, 117);
 
 }
 
 #message {
-  height: 120px;
+  height: 150px;
   width: 100%;
   padding: 3px;
   margin-top: -10px;
+  border: 1px solid rgba(117, 117, 117);
   /* word-wrap: break-word; */
   box-sizing: border-box;
   resize:none;   /*This removes those two slanting lines at the bottom right for resizing, some say its bad for UI UX, whatever.*/
