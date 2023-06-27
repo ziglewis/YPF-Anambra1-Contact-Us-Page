@@ -260,7 +260,7 @@ height: auto;
   margin-top: 20px;
   margin-bottom: 15px;
   line-height: 2.5rem;
-  color:  #848484;
+  color: rgba(56, 56, 56);
 }
 
 .map{
@@ -277,10 +277,11 @@ height: auto;
 }
 
 .map li {
-  color:  #848484;
+
   list-style:square;
   font-size: 14px;
   line-height: 25px;
+  color: rgba(56, 56, 56);
 
 }
 
@@ -292,6 +293,19 @@ height: auto;
 .map img {
   width: 100%;
 }
+
+ .map h2 {
+  font-size: 22px;
+  color: rgba(56, 56, 56);
+  font-weight: bold;
+ }
+
+ .map h1, .form-and-map-form-section h1 {
+  color: #6bc329;
+  font-size: 30px;
+  font-family: Raleway;
+ }
+
 
 .contact-social-icons{
   display: flex;
@@ -324,19 +338,20 @@ height: auto;
 
 fieldset {
   border: none;
-  color: rgba(117, 117, 117);
-  font-size: 14px;
+  font-size: 16px;
+  color: rgba(56, 56, 56);
+  font-weight: bold;
 }
 
 figure{
   /* border: 3px solid tan; */
   width: 60%;
   padding-left: 0px;
-  margin-left: 0px;
+  margin: 40px 0px 0px;
 }
 
 figcaption {
-  color: rgba(117, 117, 117);
+  color: rgba(56, 56, 56);
   font-style: oblique;
   font-size: 14px;
   
@@ -348,15 +363,24 @@ figcaption {
   height: 50px;
   margin-top: -10px;
   border: 1px solid rgba(117, 117, 117);
-
+  padding: 3px 2%;
+  font-size: 14px;
+  color: rgba(117, 117, 117);
 }
+
+/* label p {
+  color: rgba(56, 56, 56);
+} */
 
 #message {
   height: 150px;
   width: 100%;
-  padding: 3px;
   margin-top: -10px;
   border: 1px solid rgba(117, 117, 117);
+  padding: 10px 2%;
+  line-height: 2rem;
+  font-size: 14px;
+  color: rgba(56, 56, 56);
   /* word-wrap: break-word; */
   box-sizing: border-box;
   resize:none;   /*This removes those two slanting lines at the bottom right for resizing, some say its bad for UI UX, whatever.*/
