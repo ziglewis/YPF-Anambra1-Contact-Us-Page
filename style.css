@@ -267,6 +267,7 @@ height: auto;
   width: 40%;
   padding: 5px;
   margin-left: 3%;
+  box-sizing: border-box;
 
 }
 
@@ -292,6 +293,7 @@ height: auto;
 }
 .map img {
   width: 100%;
+ 
 }
 
  .map h2 {
@@ -302,7 +304,8 @@ height: auto;
 
  .map h1, .form-and-map-form-section h1 {
   color: #6bc329;
-  font-size: 30px;
+  font-size: 26px;
+  font-weight: 1000;
   font-family: Raleway;
  }
 
@@ -348,6 +351,7 @@ figure{
   width: 60%;
   padding-left: 0px;
   margin: 40px 0px 0px;
+  min-width: 250px;
 }
 
 figcaption {
@@ -366,6 +370,7 @@ figcaption {
   padding: 3px 2%;
   font-size: 14px;
   color: rgba(117, 117, 117);
+  border-radius: 5px;
 }
 
 /* label p {
@@ -384,7 +389,7 @@ figcaption {
   /* word-wrap: break-word; */
   box-sizing: border-box;
   resize:none;   /*This removes those two slanting lines at the bottom right for resizing, some say its bad for UI UX, whatever.*/
-  
+  border-radius: 5px;
 }
 
 #submit-btn {
@@ -404,12 +409,33 @@ figcaption {
 }
 
 
+/* THE SECTION THREE OF GALLERY TEXT ENDS HERE  */
+
+
+/* THE section of meet-up locations starts here*/
+
+
+
+.meet-up-locations {
+  background-color: #f0f0f0;
+  margin-top: -5px;
+  padding: 50px 3%;
+}
+
+.meet-up-locations h1 {
+  text-align: center;
+  color: #6bc329;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 1000;
+  overflow-wrap:break-word;
+ 
+}
 
 
 
 
-/* THE SECTION THREE OF GALLERY TEXT ENDS HERE AFTER THE HERO PAGE */
-
+/* THE section of meet-up locations ends here*/
 
 
 
@@ -645,6 +671,28 @@ footer p{
                     margin-top: 70px;
                     }
 
+
+                    .form-and-map {
+                     
+                      flex-direction: column;
+                      padding: 50px 5%;
+                      gap: 20px;
+                    
+                    }
+
+                    .form-and-map-form-section{
+                      width: 100%;
+                    }
+
+                    .map {
+                      width: 100%;
+                      margin: auto;
+                     
+    
+                    }
+
+
+
     .contact-us {
         padding: 60px 5%;
     }
@@ -695,7 +743,15 @@ footer p{
                 max-width: 100%;
               }
 
+              .form-and-map{
+                padding: 50px 3%;
+              }
+
+            figure {
+              width: 100%;
+              min-width: 100%;
             
+            }
     
     
     }
