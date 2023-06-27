@@ -248,6 +248,75 @@ height: auto;
   justify-content: space-between;
   color: #111111;
   background-color: #fff;
+  padding: 50px 4%;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-top: -5px;
+
+}
+
+.form-and-map p {
+  text-transform:capitalize;
+  line-height: 30px;
+}
+
+.map{
+  width: 40%;
+  padding: 5px;
+  margin-left: 3%;
+}
+
+.map img {
+  width: 60%;
+}
+
+.form-and-map-form-section {
+  width: 60%;
+  box-sizing: border-box;
+
+}
+
+.Personal-details {
+  padding: 0px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  text-align: left;
+
+}
+
+.Personal-details input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  margin-top: -10px;
+  border: 1px solid #848484;
+
+}
+
+#message {
+  height: 120px;
+  width: 100%;
+  padding: 3px;
+  margin-top: -10px;
+  /* word-wrap: break-word; */
+  box-sizing: border-box;
+  resize:none;   /*This removes those two slanting lines at the bottom right for resizing, some say its bad for UI UX, whatever.*/
+  
+}
+
+#submit-btn {
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  font-weight: bold;
+  background-color: #6bc329;
+  font-size: 14Px;
+  padding: 12px 25px;
+  border: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  margin-top: 13px;
+  float: right;
 
 }
 
