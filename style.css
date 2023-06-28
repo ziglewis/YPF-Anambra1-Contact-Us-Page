@@ -455,6 +455,10 @@ figcaption {
   margin-top: -1px;
 }
 
+.hidden-content{
+  display: none; 
+  transition: all ease 3s;
+}
 
 /* THE section of meet-up locations ends here*/
 

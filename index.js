@@ -1,4 +1,6 @@
 
+
+
 // JS FOR HOME PAGE STARTS HERE
 
      
@@ -117,9 +119,11 @@
                 
                 if(desired.style.color == "blue") {
                     desired.style.color = "red"
+                    desired.style.display = "none"
                 } else { 
                     
                     desired.style.color = "blue"
+                    desired.style.display = "block"
                 }
                 
                 // this.parentElement.children[1].style.color = "blue"
