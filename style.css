@@ -447,10 +447,12 @@ figcaption {
   border: 2px solid red;
   text-align: center;
   padding: 5px 20px 50px;
+  height: fit-content;
 }
 
 .each-unit-box {
   border: 1px solid violet;
+  margin-top: -1px;
 }
 
 
