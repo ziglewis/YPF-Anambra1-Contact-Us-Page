@@ -434,10 +434,18 @@ figcaption {
 }
 
 
+
 .all-location-container {
   color: #111111;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax( 250px, 1fr));
+  gap: 30px;
 }
 
+.all-location-container div {
+
+  border: 2px solid red;
+}
 
 
 /* THE section of meet-up locations ends here*/
