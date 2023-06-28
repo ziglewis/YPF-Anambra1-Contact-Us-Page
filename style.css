@@ -240,7 +240,7 @@ height: auto;
 }
 
 
-/* THE SECTION THREE OF GALLERY BEGINS HERE AFTER THE HERO PAGE */
+/* THE SECTION THREE OF Contact us and Find us begins */
 
 
 .form-and-map {
@@ -410,12 +410,12 @@ figcaption {
 }
 
 
-/* THE SECTION THREE OF GALLERY TEXT ENDS HERE  */
+/* THE SECTION THREE OF contact-us and find-us ENDS HERE  */
+
+
 
 
 /* THE section of meet-up locations starts here*/
-
-
 
 .meet-up-locations {
   background-color: #f0f0f0;
@@ -433,6 +433,10 @@ figcaption {
  
 }
 
+
+.all-location-container {
+  color: #111111;
+}
 
 
 
