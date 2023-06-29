@@ -113,24 +113,31 @@
          
          
          for (let i = 0; i < adds ; i++) {
-                document.querySelectorAll(".Geo-Address")[i].addEventListener("click", function() {
-        
-                let desired = this.parentElement.children[1]
+            document.querySelectorAll(".Geo-Address")[i].addEventListener("click", function() {
+    
+            let desired = this.parentElement.children[1]
+            let mySpan = this.children[0].children[0]
+            
+            console.log(this)
+            console.log(this.children[0].children[0])
+            
+            if(desired.style.color == "blue") {
+                desired.style.color = "red"
+                desired.style.display = "none"
+                mySpan.style.transform = "rotate(180deg)"
+            } else { 
                 
-                if(desired.style.color == "blue") {
-                    desired.style.color = "red"
-                    desired.style.display = "none"
-                } else { 
-                    
-                    desired.style.color = "blue"
-                    desired.style.display = "block"
-                }
-                
-                // this.parentElement.children[1].style.color = "blue"
-                
-                
-                 });
-         }
-        
+                desired.style.color = "blue"
+                desired.style.display = "block"
+                mySpan.style.color = "red"
+                mySpan.style.transform = "rotate(-180deg)"
+            }
+            
+            // this.parentElement.children[1].style.color = "blue"
+            
+            
+             });
+     }
+    
               
             
