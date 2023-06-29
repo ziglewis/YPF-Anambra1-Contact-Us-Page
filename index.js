@@ -122,15 +122,16 @@
             console.log(this.children[0].children[0])
             
             if(desired.style.color == "blue") {
-                desired.style.color = "red"
+                desired.style.color = "green"
                 desired.style.display = "none"
-                mySpan.style.transform = "rotate(180deg)"
+                mySpan.style.color = "#296a12"
+                mySpan.style.transform = "rotate(-180deg)"
             } else { 
                 
                 desired.style.color = "blue"
                 desired.style.display = "block"
-                mySpan.style.color = "red"
-                mySpan.style.transform = "rotate(-180deg)"
+                mySpan.style.color = "#6bc329"
+                mySpan.style.transform = "rotate(0deg)"
             }
             
             // this.parentElement.children[1].style.color = "blue"

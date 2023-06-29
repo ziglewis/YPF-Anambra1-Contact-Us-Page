@@ -450,6 +450,18 @@ figcaption {
   height: fit-content;
 }
 
+.Geo-Address {
+  border: 2px solid yellowgreen;
+}
+
+.Geo-Address span {
+  float: right;
+  transform: rotate(-180deg);
+  transition: all ease 0.5s;
+  color: #296a12
+
+}
+
 .each-unit-box {
   border: 1px solid violet;
   margin-top: -1px;
@@ -459,6 +471,8 @@ figcaption {
   display: none; 
   transition: all ease 3s;
 }
+
+
 
 /* THE section of meet-up locations ends here*/
 
