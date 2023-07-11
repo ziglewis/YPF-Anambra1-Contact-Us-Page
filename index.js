@@ -136,3 +136,28 @@
     
               
             
+
+      //HANDLING THE CLEARING OF THE NEWSLETTER SUBSCRIPTION FORM AFTER SUBMISSION
+
+    let clearForm = eachForm => {
+        
+        eachForm.preventDefault();
+
+        async function(clearForm) {
+    const response = await fetch("/api/submit");
+  
+    // Clear the form after the request is complete
+    setTimeout(() => {
+      eachForm.reset();
+    }, 1000);
+    }
+}
+
+    
+     let newsLetterForm = document.querySelector(".news-letter form")
+
+    newsLetterForm.addEventListener("submit", async function(clearForm) )
+
+
+
+    
