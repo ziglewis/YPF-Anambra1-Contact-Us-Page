@@ -327,8 +327,10 @@ height: auto;
 #contact-us-whatsapp-icon {
   color: #fff;
   background-color: #6bc329;
-  padding: 1px;
+  padding: 3px;
+  font-size: 12px;
   border-radius: 50%;
+  font-weight: bolder;
 
 }
 
