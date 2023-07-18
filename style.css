@@ -721,13 +721,13 @@ footer p{
 
 .social-icons div:nth-child(4) {
   transition: all ease 1s;
-  background-color: #c4302b;
-  border: 1px solid #c4302b ;
+  background-color: #229ED9;
+  border: 1px solid #229ED9;
 }
 .social-icons div:nth-child(5) {
 transition: all ease 1s;
-background-color: #296a12;
-border: 1px solid #296a12 ;
+background-color: #25D366;
+border: 1px solid #25D366 ;
 }
 /* THE FINAL SECTION OF THE FOOTER ENDS HERE */
 
