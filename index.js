@@ -143,27 +143,24 @@
 
       let contactUsSubmitBtn = document.querySelector("#submit-btn")
  
-     contactUsSubmitBtn.addEventListener("submit", function(){
+    //  contactUsSubmitBtn.addEventListener("submit", function(){
  
-        contactUsForm.submit(); // Submit the form
-        contactUsForm.reset();  // Reset all form data
-         return false; // Prevent page refresh
+    //     contactUsForm.submit(); // Submit the form
+    //     contactUsForm.reset();  // Reset all form data
+    //      return false; // Prevent page refresh
  
-     })
+    //  })
 
 
      
     //HANDLING THE CLEARING OF THE NEWSLETTER SUBSCRIPTION FORM AFTER SUBMISSION
 
     
-      let newsLetterForm = document.querySelector(".news-letter form")
+    let newsLetterForm = document.querySelector(".news-letter form")
 
-      let newsLetterSubmitBtn = document.querySelector("#subscribe")
- 
-     newsLetterSubmitBtn.addEventListener("click", function(){
- 
-         newsLetterForm.submit(); // Submit the form
-         newsLetterForm.reset();  // Reset all form data
-         return false; // Prevent page refresh
- 
-     })
+    let newsLetterSubmitBtn = document.querySelector("#subscribe")
+
+     window.addEventListener("pageshow", function() {
+       newsLetterForm.reset()
+       contactUsForm.reset()
+      });

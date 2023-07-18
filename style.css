@@ -324,6 +324,19 @@ height: auto;
   margin-top: 25px;
 }
 
+#contact-us-whatsapp-icon {
+  color: #fff;
+  background-color: #6bc329;
+  padding: 1px;
+  border-radius: 50%;
+
+}
+
+#contact-us-whatsapp-icon:hover{
+  color: #fff;
+  background-color: #296a12;
+}
+
 .contact-social-icons i:hover {
   color: #296a12;
   transform: scale(2); 
@@ -676,38 +689,43 @@ footer p{
     
 }
 
-.social-icons div:nth-child(1):hover, .social-icons div:nth-child(2):hover, .social-icons div:nth-child(3):hover, .social-icons div:nth-child(4):hover { 
+.social-icons div:nth-child(1):hover, .social-icons div:nth-child(2):hover, .social-icons div:nth-child(3):hover, .social-icons div:nth-child(4):hover, .social-icons div:nth-child(5):hover { 
     
-    transition: all ease 0.5s;
-    background-color: rgba(0, 0, 0, 0.815);
+  transition: all ease 0.5s;
+  background-color: rgba(0, 0, 0, 0.815);
 }
 
 .social-icons a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 .social-icons div:nth-child(1) {
-    transition: all ease 1s;
-    background-color: #527dbd;
-    border: 1px solid   #527dbd ;
+  transition: all ease 1s;
+  background-color: #527dbd;
+  border: 1px solid   #527dbd ;
 }
 
 .social-icons div:nth-child(2) {
-    transition: all ease 1s;
-    background-color: #1da1f2;
-    border: 1px solid   #1da1f2 ;
+  transition: all ease 1s;
+  background-color: #1da1f2;
+  border: 1px solid   #1da1f2 ;
 }
 
 .social-icons div:nth-child(3) {
-    transition: all ease 1s;
-    background-color: #e1466c;
-    border: 1px solid  #e1466c ;
+  transition: all ease 1s;
+  background-color: #e1466c;
+  border: 1px solid  #e1466c ;
 }
 
 .social-icons div:nth-child(4) {
-    transition: all ease 1s;
-    background-color: #c4302b;
-    border: 1px solid #c4302b ;
+  transition: all ease 1s;
+  background-color: #c4302b;
+  border: 1px solid #c4302b ;
+}
+.social-icons div:nth-child(5) {
+transition: all ease 1s;
+background-color: #296a12;
+border: 1px solid #296a12 ;
 }
 /* THE FINAL SECTION OF THE FOOTER ENDS HERE */
 

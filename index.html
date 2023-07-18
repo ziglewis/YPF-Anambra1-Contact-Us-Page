@@ -97,7 +97,7 @@
                     
                     <label for="phoneNumber" value = "mobile line">
                         <p>Phone Number:</p>
-                        <input type ="tel"  id="phoneNumber" name="Tel-ID">
+                        <input type ="text"  id="phoneNumber" name="Tel-ID" pattern="^(\+|0)[0-9]{10,14}$" >
                     </label>
         
                     <label for="message" value ="Their message">
@@ -106,8 +106,9 @@
                         
                     </label>
 
-                            <input type="button" value="Submit" id="submit-btn">
-                           <!-- <input type ="submit" id="submit-btn" value="Submit" > -->
+                            <!-- <input type="button" value="Submit" id="submit-btn"> -->
+                           <input type ="submit" id="submit-btn" value="Submit" >
+                           
                           
             
                 </fieldset>
@@ -138,11 +139,11 @@
             <p>Email: .....@ypf.gmail.com</p>
             <div class="contact-social-icons">
 
-                <div class="contact-social-icons"><a href="https://web.facebook.com/lewis.zigede/" target="_blank">
+                <div class="contact-social-icons"><a href="https://https://web.facebook.com/search/top?q=young%20professionals%20forum%2C%20anambra%20state." target="_blank">
                 <i class="fab fa-facebook-f"></i>
                 </a></div>
                 
-                <div class="contact-us-social-icons"><a href="https://twitter.com/lewis_zig/" target="_blank"> 
+                <div class="contact-us-social-icons"><a href="https://twitter.com/ypfanambra/status/1557118818442420224" target="_blank"> 
                 <i class="fab fa-twitter"></i>
                 </a></div>
                 
@@ -151,10 +152,18 @@
                 <i class="fab fa-linkedin-in"></i>
                 </a></div>
         
-                <div class="contact-us-social-icons"><a href="https://github.com/ziglewis" target="_blank"> 
-                    <i class="fab fa-youtube"></i>
+                <div class="contact-us-social-icons"><a href="https://t.me/+SqiZ4JZgJZ42YjY0" target="_blank"> 
+                    <i class="fab fa-telegram"></i>
+                </a></div>
+
+                <div class="contact-us-social-icons"><a href="https://chat.whatsapp.com/CM1MZJ84qdL4J0NQLDjUwC" target="_blank"> 
+                    <i id="contact-us-whatsapp-icon" class="fab fa-whatsapp"></i>
                 </a></div>
          </div>
+
+
+
+
     
 
         </div> <!--The map section ends here  -->
@@ -485,15 +494,15 @@
 
                             </div>
 
-                           <div class="news-letter contact-us-items">
-                            <h2>GET OUR NEWSLETTER</h2>
-                           <form action="https://formspree.io/f/xnqkqgze" method="post"> 
-                               <input id="email" type="email" name="Email" required placeholder=" Enter Your Email">
-                               <input id="telephone" type="tel" name="Phone Number"  placeholder="Enter Your Phone Number" >
-                               <input type="button" value="SUBSCRIBE" id="subscribe">
-                           </form>
+                            <div class="news-letter contact-us-items">
+                                <h2>GET OUR NEWSLETTER</h2>
+                               <form action="https://formspree.io/f/xnqkqgze" method="post"> 
+                                   <input id="email" type="email" name="Email" required placeholder=" Enter Your Email">
+                                   <input id="telephone" type="text" name="Phone Number" pattern="^(\+|0)[0-9]{10,14}$"  placeholder="Enter Your Phone Number" >
+                                   <input type ="submit" id="subscribe" value="SUBSCRIBE" > 
+                               </form>
 
-                       </div>
+                           </div>
 
                     
 
@@ -506,27 +515,30 @@
                                 <p>© 2023 <span class="footer-name"> YPF Anambra-1</span>. All rights reserved | Design by <span class="footer-name"> YPF Media Team Lagos </span>| Coded by <span class="footer-name">ZigLewis</span></p>    
                             </div>
 
-                             <div class="social-icons">
+                            <div class="social-icons">
 
-                                    <div><a href="https://web.facebook.com/lewis.zigede/" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                    </a></div>
-                                    
-                                    <div><a href="https://twitter.com/lewis_zig/" target="_blank"> 
-                                    <i class="fab fa-twitter"></i>
-                                    </a></div>
-                                    
+                                <div><a href="https://https://web.facebook.com/search/top?q=young%20professionals%20forum%2C%20anambra%20state." target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                </a></div>
                                 
-                                    <div><a href="https://www.linkedin.com/in/zigede-lewis-11b387131/" target="_blank"> 
-                                    <i class="fab fa-linkedin-in"></i>
-                                    </a></div>
+                                <div><a href="https://twitter.com/ypfanambra/status/1557118818442420224" target="_blank"> 
+                                <i class="fab fa-twitter"></i>
+                                </a></div>
+                                
                             
-                                    <div><a href="https://github.com/ziglewis" target="_blank"> 
-                                        <i class="fab fa-youtube"></i>
-                                    </a></div>
-                             </div>
+                                <div><a href="https://www.linkedin.com/in/zigede-lewis-11b387131/" target="_blank"> 
+                                <i class="fab fa-linkedin-in"></i>
+                                </a></div>
                         
-            
+                                <div><a href="https://t.me/+SqiZ4JZgJZ42YjY0" target="_blank"> 
+                                    <i class="fab fa-telegram"></i>
+                                </a></div>
+
+                                <div><a href="https://chat.whatsapp.com/CM1MZJ84qdL4J0NQLDjUwC" target="_blank">      
+                                    <i class="fab fa-whatsapp"></i>
+                                </a></div>
+                         </div>
+                    
                 </footer>
                     
     </section>
